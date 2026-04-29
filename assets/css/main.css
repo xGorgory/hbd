@@ -271,6 +271,8 @@ body::before {
   margin-bottom: 3.5rem;
   align-items: center;
 }
+.tl-item:nth-child(odd) .tl-content { order: 1; }
+.tl-item:nth-child(odd) .tl-img-wrap { order: 3; }
 .tl-item:nth-child(even) .tl-content { order: 3; }
 .tl-item:nth-child(even) .tl-img-wrap { order: 1; }
 .tl-dot {
