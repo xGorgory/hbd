@@ -334,6 +334,7 @@ body::before {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 2rem;
+  align-items: start;
 }
 .polaroid-card {
   background: #f5f0ff;
@@ -350,7 +351,7 @@ body::before {
   z-index: 10;
   position: relative;
 }
-.polaroid-photo { width: 100%; aspect-ratio: 1/1; object-fit: cover; display: block; }
+.polaroid-photo { width: 100%; display: block; border-radius: 2px; }
 .polaroid-caption {
   text-align: center;
   font-family: 'Jost', sans-serif;
